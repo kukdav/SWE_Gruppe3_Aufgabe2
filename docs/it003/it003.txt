@@ -1,26 +1,35 @@
 Planning:
 Aus letztem Sprint:
-
+    keine
 Planning Poker:
+- Vervollständigen der Button Implementierung : 8 SP
+- Erweitern des ButtonTests um die neuen Methoden. : 5 SP
+- Pipeline Test integrieren : 1 SP
 
+- Erstellen sie einen Effekt SpinningWheel der Rot Blau Leds im Uhrzeigersinn rotieren lässt : 5 SP
+- Schreiben sie auch einen Testfall für diesen Effekt : 8 SP
+- Erstellen sie auch eine Demoanwendung für diesen Effekt: 3 SP
 
-Daily1:
+Daily1: 13:15-13:20
     Woran arbeite ich gerade:
-        Dev:
-        QA:
-    Woran arbeite ich die nächsten 24h?
-        siehe oben
+        Vervollständigen der Button Implementierung->fertig
+        Vervollständigen der Button Implementierung->fertig
+        Erweitern des ButtonTests um die neuen Methoden->angefangen
+        Schreiben sie auch einen Testfall für diesen Effekt->fertig
+        Erstellen sie auch eine Demoanwendung für diesen Effekt-> fast fertig
+    Woran arbeite ich bis nächsten Daily:
+        Erstellen sie einen Effekt SpinningWheel der Rot Blau Leds im Uhrzeigersinn rotieren lässt->komplett
     Probleme/Fragen:
+        nur 11 LED's dadurch Abfrage mit Modulo nicht ideal
+        Muss Code teilweise refactored werden?->eingeplant für späteren Sprint
 
-Daily2: 11:10-11:15:
+Daily2: 13:30-13:35:
     Woran arbeite ich gerade:
-        Dev:
-        QA:
-    Woran arbeite ich die nächsten 24h?
-        siehe oben
+      Epic3 fertig, Wechsel auf Epic4
     Probleme/Fragen:
+        keine!
 
 Retro:
-    deutlich besser als bei ersten
-    weniger Zeitstress
-    geholfen, dass man Programm auskennt
+ - weiter Verbesserungen, Teams eingespielt
+ - Aufgabenstellung ungenau (Rot-Blau-Rot-Blau oder ROTBLAULEER-ROTBLAULEER...)?
+

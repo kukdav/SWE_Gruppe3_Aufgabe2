@@ -16,20 +16,18 @@ Planning Poker für Epic2 (direkt über Teams Chat):
 
 Daily1: 10:30-10:35:
     Woran arbeite ich gerade:
-        Dev: Epic1 fertig, Wechsel auf Epic 2
-        QA:
-    Woran arbeite ich die nächsten 24h?
-        siehe oben
+       Epic1 fertig, Wechsel auf Epic 2
+
+    Woran arbeite ich bis zum nächsten Daily:
+        EPIC 2 alle
     Probleme/Fragen:
         Wie werfe ich am besten Exceptions? -> beantwortet
         Switch Epic1 auf Epic2 Besprechung
 
 Daily2: 11:10-11:20:
     Woran arbeite ich gerade:
-        Dev: Spinning Led
-        QA: Test zu Spinning LED
-    Woran arbeite ich die nächsten 24h?
-        siehe oben
+        Spinning Led -> fast fertig
+        Test zu Spinning LED->fertig
     Probleme/Fragen:
         while Schleife in Spinning LED->gelöst
 

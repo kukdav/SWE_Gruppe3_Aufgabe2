@@ -7,11 +7,12 @@
 - Schreiben Sie parallel einen Test zu dem Effekt
 - Zeigen sie die Funktion in einer kleinen Anwendung.
 
-- Vervollständigen der Button Implementierung 
-- Erweitern des ButtonTests um die neuen Methoden. 
-- Erstellen sie einen Effekt SpinningWheel der Rot Blau Leds im Uhrzeigersinn rotieren lässt 
-- Schreiben sie auch einen Testfall für diesen Effekt 
-- Erstellen sie auch eine Demoanwendung für diesen Effekt.
+- Vervollständigen der Button Implementierung : 8 SP
+- Erweitern des ButtonTests um die neuen Methoden. : 5 SP
+
+- Erstellen sie einen Effekt SpinningWheel der Rot Blau Leds im Uhrzeigersinn rotieren lässt : 5 SP
+- Schreiben sie auch einen Testfall für diesen Effekt : 8 SP
+- Erstellen sie auch eine Demoanwendung für diesen Effekt: 3 SP
 
 - Vervollständigen Sie die Klasse ClockUtil 
 - Schreiben Sie einen Test der die Implementierung überprüft 
