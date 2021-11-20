@@ -2,7 +2,7 @@ package org.c02.iot.effect.test;
 
 import org.c02.swe.iot.IButton;
 import org.c02.swe.iot.cloud.api.ParticleException;
-import org.c02.swe.iot.effect.SpinningLedRunning;
+import org.c02.swe.iot.effect.SpinningLED;
 import org.junit.Assert;
 import org.junit.Test;
 import org.mockito.InOrder;
@@ -17,8 +17,10 @@ public class SpinningLedRunningTest {
     public void testReset() throws ParticleException {
         //setup
         IButton buttonInstance = Mockito.mock(IButton.class);
+        Color color = Color.RED;
+        int cycle = 2;
 
-        SpinningLedRunning poc = new SpinningLedRunning(buttonInstance);
+        SpinningLED poc = new SpinningLED(buttonInstance,color,cycle);
         poc.reset();
 
         Mockito.verify(buttonInstance).allLedsOff();
@@ -29,7 +31,10 @@ public class SpinningLedRunningTest {
     public void testOneTick() throws ParticleException{
         //setup
         IButton buttonInstance = Mockito.mock(IButton.class);
-        SpinningLedRunning poc = new SpinningLedRunning(buttonInstance);
+        Color color = Color.RED;
+        int cycle = 2;
+
+        SpinningLED poc = new SpinningLED(buttonInstance,color,cycle);
 
         Assert.assertTrue(poc.next());
 
@@ -42,7 +47,10 @@ public class SpinningLedRunningTest {
     public void testSequenceTwoTicks() throws ParticleException{
         //setup
         IButton buttonInstance = Mockito.mock(IButton.class);
-        SpinningLedRunning poc = new SpinningLedRunning(buttonInstance);
+        Color color = Color.RED;
+        int cycle = 2;
+
+        SpinningLED poc = new SpinningLED(buttonInstance,color,cycle);
 
         Assert.assertTrue(poc.next());
         Assert.assertTrue(poc.next());
@@ -59,7 +67,10 @@ public class SpinningLedRunningTest {
     public void testSequence() throws ParticleException {
         //setup
         IButton buttonInstance = Mockito.mock(IButton.class);
-        SpinningLedRunning poc = new SpinningLedRunning(buttonInstance);
+        Color color = Color.RED;
+        int cycle = 2;
+
+        SpinningLED poc = new SpinningLED(buttonInstance,color,cycle);
 
         while (poc.next()) {
         }
