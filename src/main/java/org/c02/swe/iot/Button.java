@@ -28,7 +28,7 @@ public class Button implements IButton {
 
         String pos;
 
-        if (position <= 0 || position >= 13) throw new IllegalArgumentException();
+        if (position <= 0 || position >= 12) throw new IllegalArgumentException();
 
 
 
