@@ -1,0 +1,18 @@
+- Implementieren Sie die Methoden zum Setzen der Leds  
+- Implementieren Sie Abschalten der Leds.  
+- Schreiben Sie Für alle einen Test der ohne den Button aus kommt.  
+- Erweitern Sie auch die kleine Applikation die zeigt, wie die LEDS gesetzt und gelöscht werden (LedDemoApp).
+
+- Schreiben sie einen Effekt SpinningLed bei dem man die Farbe der Led festgelegt werden kann. Es wird immer nur eine LED eingeschaltet. Man kann die Anzahl angeben wie oft die LED im Kreis laufen soll. 
+- Schreiben Sie parallel einen Test zu dem Effekt 
+- Zeigen sie die Funktion in einer kleinen Anwendung.
+
+- Vervollständigen der Button Implementierung 
+- Erweitern des ButtonTests um die neuen Methoden. 
+- Erstellen sie einen Effekt SpinningWheel der Rot Blau Leds im Uhrzeigersinn rotieren lässt 
+- Schreiben sie auch einen Testfall für diesen Effekt 
+- Erstellen sie auch eine Demoanwendung für diesen Effekt.
+
+- Vervollständigen Sie die Klasse ClockUtil 
+- Schreiben Sie einen Test der die Implementierung überprüft 
+- Und schreiben Sie eine kleine Demoanwendung die alle Sekunden die Zeit aktualisiert.
