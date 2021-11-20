@@ -1,9 +1,12 @@
 package org.c02.iot;
 
+import org.c02.iot.effect.test.WhiteLedRunningTest;
 import org.c02.swe.iot.Button;
 import org.c02.swe.iot.LedStatus;
 import org.c02.swe.iot.cloud.api.IParticleApi;
 import org.c02.swe.iot.cloud.api.ParticleException;
+import org.c02.swe.iot.effect.IEffect;
+import org.c02.swe.iot.effect.WhiteLedRunning;
 import org.junit.Test;
 import org.mockito.Mockito;
 
