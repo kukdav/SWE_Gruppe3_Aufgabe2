@@ -1,0 +1,22 @@
+# Iteration zero
+
+  * Product Owner: David Kukovic
+  * Scrum Master: Michael Gratz
+  * Repo: https://github.com/kukdav/SWE_Gruppe3_Aufgabe2.git
+
+  * Implementierung:
+
+    * Stephan Lanegger
+    * Philipp Rappold
+    * Nikolaus Kachelmaier
+    * (Michael Gratz)
+
+  * Test:
+
+    * Irma Pezo
+    * Julian Baumann
+    * Arijana Muratovic
+    * (David Kukovic)
+
+
+Bis 09:55 erster Sprint
