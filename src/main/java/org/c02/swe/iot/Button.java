@@ -28,7 +28,13 @@ public class Button implements IButton {
 
         String pos;
 
-       // if (position <= 0 || position >= 13) throw (Throwable) ParticleException;
+        if (position <= 0 || position >= 13) {
+            try {
+                throw (Throwable) ParticleException;
+            } catch (Throwable throwable) {
+                throwable.printStackTrace();
+            }
+        }
 
 
         if (position <= 9) {
