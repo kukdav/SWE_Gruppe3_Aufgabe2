@@ -2,7 +2,43 @@
 Planning 10:10-10:15:
 Aus letztem Sprint:
  - Exception : 1 SP
- - LED-Demo App : 13 SP
+ - LED-Demo App : 8 SP (angepasst)
+
+Planning Poker für Epic2:
+    - Schreiben sie einen Effekt SpinningLed bei dem man die Farbe der Led festgelegt werden kann.
+      Es wird immer nur eine LED eingeschaltet. Man kann die Anzahl angeben wie oft die LED im Kreis laufen soll.
+      : 8 SP
+    - Schreiben Sie parallel einen Test zu dem Effekt
+      : 5 SP
+    - Zeigen sie die Funktion in einer kleinen Anwendung.
+      : 5 SP
+
+
+Daily1: 10:30-10:35:
+    Woran arbeite ich gerade:
+        Dev: Epic1 fertig, Wechsel auf Epic 2
+        QA:
+    Woran arbeite ich die nächsten 24h?
+        siehe oben
+    Probleme/Fragen:
+        Wie werfe ich am besten Exceptions? -> beantwortet
+        Switch Epic1 auf Epic2 Besprechung
+
+Daily2: 11:10-11:20:
+    Woran arbeite ich gerade:
+        Dev: Spinning Led
+        QA: Test zu Spinning LED
+    Woran arbeite ich die nächsten 24h?
+        siehe oben
+    Probleme/Fragen:
+        while Schleife in Spinning LED->gelöst
+
+Retro 11:20-11:25:
+    deutlich besser als bei ersten
+    weniger Zeitstress
+    geholfen, dass man Programm auskennt
+
+
 
 
 
