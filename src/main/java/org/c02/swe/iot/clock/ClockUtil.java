@@ -35,6 +35,7 @@ public class ClockUtil {
         statuses.add(new LedStatus(minpos, Color.green));
         statuses.add(new LedStatus(secpos, Color.blue));
 
+        this.btn.allLedsOff();
         this.btn.setLeds(statuses);
 
 
