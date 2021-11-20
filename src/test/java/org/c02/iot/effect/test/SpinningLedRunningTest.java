@@ -72,8 +72,7 @@ public class SpinningLedRunningTest {
 
         SpinningLED poc = new SpinningLED(buttonInstance,color,cycle);
 
-        while (poc.next()) {
-        }
+        poc.next();
 
         InOrder inOrder = Mockito.inOrder(buttonInstance);
         for (int count = 1; count <= 11; count++) {
