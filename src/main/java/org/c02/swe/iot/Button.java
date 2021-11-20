@@ -1,14 +1,16 @@
 package org.c02.swe.iot;
 
-import java.awt.Color;
-import java.util.List;
-
 import org.c02.swe.iot.cloud.api.IParticleApi;
+import org.c02.swe.iot.cloud.api.ParticleApi;
 import org.c02.swe.iot.cloud.api.ParticleException;
+
+import java.awt.*;
+import java.util.List;
 
 public class Button implements IButton {
 
-
+    static IParticleApi api = new ParticleApi(new ButtonConnection());
+    private Object ParticleException;
 
     public Button(IParticleApi wrapperInstance) {
 
@@ -16,14 +18,51 @@ public class Button implements IButton {
 
 
     public void setLed(int position, Color color) throws ParticleException {
+        // nn = Position 01-12
+        // rrr = rot
+        // ggg = grün
+        // bbb = blau
+        // nnrrrgggbbb
 
+        //String convcolor = ;
+
+        String pos;
+
+       // if (position <= 0 || position >= 13) throw (Throwable) ParticleException;
+
+
+        if (position <= 9) {
+            pos = "0"+ String.valueOf(position);
+        } else {
+            pos = String.valueOf(position);
+        }
+
+        int red = color.getRed();
+        int blue = color.getBlue();
+        int green = color.getGreen();
+
+        if (red < 10) { pos = "00" + String.valueOf(red); }
+        else if (red < 100){ pos = "0" + String.valueOf(red); }
+        else { pos = String.valueOf(red); }
+
+        if (blue < 10) { pos = "00" + String.valueOf(blue); }
+        else if (blue < 100){ pos = "0" + String.valueOf(blue); }
+        else { pos = String.valueOf(blue); }
+
+        if (green < 10) { pos = "00" + String.valueOf(green); }
+        else if (green < 100){ pos = "0" + String.valueOf(green); }
+        else { pos = String.valueOf(green); }
+
+        api.callMethod("led", pos);
 
     }
 
     public void allLedsOff() throws ParticleException {
-
+        api.callMethod("ledsOff", null);
     }
 
+
+    // ignore unitl setup 3
     public void setLed(LedStatus status) throws ParticleException {
 
 
@@ -33,4 +72,6 @@ public class Button implements IButton {
 
 
     }
+
+
 }
