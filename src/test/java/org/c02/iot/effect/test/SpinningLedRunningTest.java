@@ -3,7 +3,7 @@ package org.c02.iot.effect.test;
 import org.c02.swe.iot.IButton;
 import org.c02.swe.iot.cloud.api.ParticleException;
 import org.c02.swe.iot.effect.SpinningLED;
-import org.junit.Assert;
+import org.c02.swe.iot.examples.SpinningLedDemo;
 import org.junit.Test;
 import org.mockito.InOrder;
 import org.mockito.Mockito;

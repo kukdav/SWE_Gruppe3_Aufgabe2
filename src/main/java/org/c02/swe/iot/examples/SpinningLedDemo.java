@@ -7,6 +7,7 @@ import org.c02.swe.iot.cloud.api.ParticleApi;
 import org.c02.swe.iot.cloud.api.ParticleException;
 import org.c02.swe.iot.effect.IEffect;
 import org.c02.swe.iot.effect.SpinningLED;
+import org.c02.swe.iot.effect.SpinningWheel;
 
 import java.awt.*;
 
