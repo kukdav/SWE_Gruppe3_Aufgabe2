@@ -66,11 +66,22 @@ public class Button implements IButton {
     // ignore unitl setup 3
     public void setLed(LedStatus status) throws ParticleException {
 
+        int position = status.getPosition();
+        Color color = status.getColor();
+
+        setLed(position,color);
 
     }
 
     public void setLeds(List<LedStatus> statuses) throws ParticleException {
+        for (LedStatus status : statuses) {
 
+            int position = status.getPosition();
+            Color color = status.getColor();
+
+            setLed(position,color);
+
+        }
 
     }
 
