@@ -1,0 +1,23 @@
+Planning:
+Aus letztem Sprint:
+
+Planning Poker:
+
+
+Daily1:
+    Woran arbeite ich gerade:
+        Dev:
+        QA:
+    Woran arbeite ich die nächsten 24h?
+        siehe oben
+    Probleme/Fragen:
+
+Daily2: 11:10-11:15:
+    Woran arbeite ich gerade:
+        Dev:
+        QA:
+    Woran arbeite ich die nächsten 24h?
+        siehe oben
+    Probleme/Fragen:
+
+Retro:
