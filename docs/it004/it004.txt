@@ -1,23 +1,27 @@
 Planning:
 Aus letztem Sprint:
- keine
+    Problem mit Merge Konflikt
+    8 SP
 Planning Poker:
+- 13 SP: Vervollständigen Sie die Klasse ClockUtil
+- 13 SP: Schreiben Sie einen Test der die Implementierung überprüft
+- 8 SP: Und schreiben Sie eine kleine Demoanwendung die alle Sekunden die Zeit aktualisiert.
 
 
-Daily1:
+Daily1 14:35-14:40:
     Woran arbeite ich gerade:
-        Dev:
-        QA:
-    Woran arbeite ich die nächsten 24h?
-        siehe oben
-    Probleme/Fragen:
+        Clock Util -> mittendrin
+        Test -> mittendrin
+        Demo -> offen
 
-Daily2: 11:10-11:15:
-    Woran arbeite ich gerade:
-        Dev:
-        QA:
-    Woran arbeite ich die nächsten 24h?
-        siehe oben
+    Woran arbeite ich bis zum nächsten Sprint:
+       Clock util->weiter
+       Test->weiter
+       Demo->Start
     Probleme/Fragen:
+        Unklarheiten bezügl. Einteilung
 
-Retro:
+
+Retro 15:05-15:10:
+    Etwas stressig wegen verlorenener Datei
+    Einschätzung hätte besser sein können
