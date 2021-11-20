@@ -1,0 +1,11 @@
+
+Planning 10:10-10:15:
+Aus letztem Sprint:
+ - Exception : 1 SP
+ - LED-Demo App : 13 SP
+
+
+
+
+
+

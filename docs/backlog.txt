@@ -4,7 +4,7 @@
 - Erweitern Sie auch die kleine Applikation die zeigt, wie die LEDS gesetzt und gelöscht werden (LedDemoApp).
 
 - Schreiben sie einen Effekt SpinningLed bei dem man die Farbe der Led festgelegt werden kann. Es wird immer nur eine LED eingeschaltet. Man kann die Anzahl angeben wie oft die LED im Kreis laufen soll. 
-- Schreiben Sie parallel einen Test zu dem Effekt 
+- Schreiben Sie parallel einen Test zu dem Effekt
 - Zeigen sie die Funktion in einer kleinen Anwendung.
 
 - Vervollständigen der Button Implementierung 
