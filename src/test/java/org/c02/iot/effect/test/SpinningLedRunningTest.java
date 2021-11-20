@@ -27,12 +27,12 @@ public class SpinningLedRunningTest {
         Mockito.verifyNoMoreInteractions(buttonInstance);
     }
 
-/*    @Test
+    /*@Test
     public void testOneTick() throws ParticleException{
         //setup
         IButton buttonInstance = Mockito.mock(IButton.class);
         Color color = Color.RED;
-        int cycle = 1;
+        int cycle = 2;
 
         SpinningLED poc = new SpinningLED(buttonInstance,color,cycle);
 
@@ -40,10 +40,10 @@ public class SpinningLedRunningTest {
 
         Mockito.verify(buttonInstance).setLed(1, Color.red);
         Mockito.verifyNoMoreInteractions(buttonInstance);
-    }*/
+    }
 
 
-   /* @Test
+    @Test
     public void testSequenceTwoTicks() throws ParticleException{
         //setup
         IButton buttonInstance = Mockito.mock(IButton.class);
@@ -61,7 +61,7 @@ public class SpinningLedRunningTest {
         inOrder.verify(buttonInstance).setLed(2, Color.green);
 
         inOrder.verifyNoMoreInteractions();
-    }*/
+    } */
 
     @Test
     public void testSequence() throws ParticleException {
@@ -72,7 +72,8 @@ public class SpinningLedRunningTest {
 
         SpinningLED poc = new SpinningLED(buttonInstance,color,cycle);
 
-        poc.next();
+        while (poc.next()) {
+        }
 
         InOrder inOrder = Mockito.inOrder(buttonInstance);
         for (int count = 1; count <= 11; count++) {

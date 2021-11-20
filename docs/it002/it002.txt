@@ -4,7 +4,7 @@ Aus letztem Sprint:
  - Exception : 1 SP
  - LED-Demo App : 8 SP (angepasst)
 
-Planning Poker für Epic2:
+Planning Poker für Epic2 (direkt über Teams Chat):
     - Schreiben sie einen Effekt SpinningLed bei dem man die Farbe der Led festgelegt werden kann.
       Es wird immer nur eine LED eingeschaltet. Man kann die Anzahl angeben wie oft die LED im Kreis laufen soll.
       : 8 SP
@@ -35,6 +35,7 @@ Daily2: 11:10-11:20:
 
 Retro 11:20-11:25:
     deutlich besser als bei ersten
+    koordinierterer Ablauf
     weniger Zeitstress
     geholfen, dass man Programm auskennt
 
