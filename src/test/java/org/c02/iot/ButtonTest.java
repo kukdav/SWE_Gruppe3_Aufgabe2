@@ -1,16 +1,12 @@
 package org.c02.iot;
 
 import org.c02.swe.iot.Button;
-import org.c02.swe.iot.IButton;
-import org.c02.swe.iot.LedStatus;
 import org.c02.swe.iot.cloud.api.IParticleApi;
 import org.c02.swe.iot.cloud.api.ParticleException;
 import org.junit.Test;
 import org.mockito.Mockito;
 
 import java.awt.*;
-import java.lang.reflect.Array;
-import java.util.ArrayList;
 
 public class ButtonTest {
     @Test
